@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="simple-grid.css">
+    <title>Pragmatech</title>
+</head>
+<body>
+    <div class="container">
+        <div class="register-form col-6">
+            <div class="title">
+                <h4>Register Form</h4>
+                <h4 id="form_result" style="color: red;">Result: Not Ready To Submit</h4>
+            </div>
+            <div class="form-control">
+                <div class="form-field col-6">
+                    <label for="reg_name">First Name</label>
+                    <input id="reg_name" type="text">
+                </div>
+                <div class="form-field col-6">
+                    <label for="reg_surname">Last Name</label>
+                    <input id="reg_surname" type="text">
+                </div>
+            </div>
+            <div class="form-control">
+                <div class="form-field col-6">
+                    <label for="reg_date">Birthday</label>
+                    <input id="reg_date" type="date">
+                </div>
+                <div class="form-field col-6">
+                    <label for="reg_surname">Gender</label>
+                    <div class="radio-wrapper ">
+                        <input checked type="radio" id="regGenderMale" name="gender" value="0">
+                        <label for="male">Male</label>
+                        <input type="radio" id="regGenderFemale" name="gender" value="1">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-control">
+                <div class="form-field col-6">
+                    <label for="reg_email">Email</label>
+                    <input id="reg_email" type="text">
+                </div>
+                <div class="form-field col-6">
+                    <label for="reg_phone">Phone Number</label>
+                    <input id="reg_phone" type="text">
+                    <small>Numune: +994503144847</small>
+                </div>
+            </div>
+            <div class="form-control direction-column">
+                <label for="cars">Choose a University:</label>
+                <select id="reg_university">
+                    <option selected="selected" value="-1">Choose...</option>
+                    <option value="1">MIT</option>
+                    <option value="2">Hardward</option>
+                    <option value="3">ADNSU</option>
+                    <option value="4">BDU</option>
+                </select>                    
+            </div>
+            <div class="form-control direction-column">
+                <button type="button" id="submit-btn" class="col-4">Submit</button>                
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

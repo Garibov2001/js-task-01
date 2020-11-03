@@ -1,0 +1,59 @@
+
+
+.register-form{
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 0px 20px 20px 20px;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.form-control{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title h4{
+    font-size: 30px;
+}
+
+label{
+    font-size: 20px;
+}
+
+input, select{
+    padding: 3px;
+    font-size: 18px;
+}
+
+.form-control{
+    margin-bottom: 12px;
+}
+
+
+.align-center{
+    align-items: center;
+}
+
+button{
+    font-size: 16px;
+    padding: 5px;
+}
